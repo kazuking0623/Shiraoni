@@ -1,4 +1,7 @@
 #Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=81c1e5a67c13385822c6c156aa0b3b0466e25d09
 class.A.image=snowman.png
 class.A.superclass=greenfoot.Actor
 class.B.image=fish3.png
@@ -8,10 +11,17 @@ class.MyWorld.superclass=greenfoot.World
 class.d.superclass=greenfoot.Actor
 class.shiraoni.image=\u767D\u9B3C.jpg
 class.shiraoni.superclass=greenfoot.Actor
+<<<<<<< HEAD
 mainWindow.height=1028
 mainWindow.width=927
 mainWindow.x=992
 mainWindow.y=52
+=======
+mainWindow.height=566
+mainWindow.width=714
+mainWindow.x=1032
+mainWindow.y=169
+>>>>>>> 327c87dadc374eaed3a074e0565df65310013dd0
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
@@ -57,7 +67,11 @@ target3.y=10
 target4.editor.height=700
 target4.editor.width=900
 target4.editor.x=105
+<<<<<<< HEAD
 target4.editor.y=100
+=======
+target4.editor.y=72
+>>>>>>> 327c87dadc374eaed3a074e0565df65310013dd0
 target4.height=50
 target4.name=shiraoni
 target4.naviview.expanded=true
