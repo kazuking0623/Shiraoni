@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=81c1e5a67c13385822c6c156aa0b3b0466e25d09
+>>>>>>>=a16c8fcce84e3d4df237d5e4e413a871a543a731
 class.A.image=snowman.png
 class.A.superclass=greenfoot.Actor
 class.B.image=fish3.png
@@ -21,7 +21,7 @@ project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=105
-target1.editor.y=52
+target1.editor.y=108
 target1.height=50
 target1.name=d
 target1.naviview.expanded=true
