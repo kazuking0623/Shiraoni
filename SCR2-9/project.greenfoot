@@ -1,11 +1,11 @@
 #Greenfoot properties
-#Wed Dec 13 10:16:00 JST 2017
+#Wed Dec 13 10:17:59 JST 2017
 target4.type=ClassTarget
 <<<<<<<=HEAD
 target3.height=50
 target5.height=50
 class.shiraoni.image=\u767D\u9B3C.jpg
-target1.editor.y=108
+target1.editor.y=164
 class.d.superclass=greenfoot.Actor
 target1.editor.x=105
 target4.name=shiraoni
@@ -26,6 +26,7 @@ target2.editor.height=700
 target1.width=80
 target2.typeParameters=
 target3.showInterface=false
+class.d.image=fly.png
 target1.showInterface=false
 target4.editor.width=900
 target5.showInterface=false
@@ -36,11 +37,11 @@ target1.typeParameters=
 target1.naviview.expanded=true
 target2.editor.y=151
 target2.height=50
-target5.y=130
 target2.editor.x=1002
 target4.height=50
-target5.x=10
+target5.y=130
 class.A.image=snowman.png
+target5.x=10
 target1.name=d
 target4.y=10
 target4.x=160
@@ -52,8 +53,8 @@ target2.y=70
 target2.x=160
 class.MyWorld.superclass=greenfoot.World
 class.A.superclass=greenfoot.Actor
-mainWindow.y=337
-mainWindow.x=547
+mainWindow.y=400
+mainWindow.x=394
 target5.width=80
 target1.y=70
 target1.x=70
@@ -70,14 +71,14 @@ target3.type=ClassTarget
 target4.width=80
 target5.typeParameters=
 world.lastInstantiated=MyWorld
-mainWindow.height=566
 target2.showInterface=false
+mainWindow.height=566
 target3.name=B
-class.B.superclass=greenfoot.Actor
 target1.editor.width=900
+class.B.superclass=greenfoot.Actor
 target3.naviview.expanded=true
-project.charset=UTF-8
-target3.width=80
 class.MyWorld.image=house-03.png
-=\=\=\=\=\=\=
+target3.width=80
+project.charset=UTF-8
 target4.showInterface=false
+=\=\=\=\=\=\=
