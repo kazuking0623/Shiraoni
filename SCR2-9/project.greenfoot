@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=a16c8fcce84e3d4df237d5e4e413a871a543a731
+>>>>>>>=7e5440d0118493387b385b6b0af2fc32f2b7281a
 class.A.image=snowman.png
 class.A.superclass=greenfoot.Actor
 class.B.image=fish3.png
@@ -15,7 +15,7 @@ class.shiraoni.superclass=greenfoot.Actor
 mainWindow.height=566
 mainWindow.width=714
 mainWindow.x=119
-mainWindow.y=375
+mainWindow.y=431
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
