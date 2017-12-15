@@ -22,7 +22,32 @@ project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=105
+<<<<<<< HEAD
 target1.editor.y=164
+=======
+=======
+target3.height=50
+target5.height=50
+class.shiraoni.image=\u767D\u9B3C.jpg
+>>>>>>> 34d704d0e7f6ce628bcc4e389c89ddc1bce8139a
+target1.editor.y=108
+=======
+>>>>>>> f318c74249d5b88ac7a380157a4197c35112f419
+class.d.superclass=greenfoot.Actor
+class.shiraoni.image=\u767D\u9B3C.jpg
+class.shiraoni.superclass=greenfoot.Actor
+mainWindow.height=566
+mainWindow.width=714
+mainWindow.x=547
+mainWindow.y=393
+package.numDependencies=0
+package.numTargets=5
+project.charset=UTF-8
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=105
+target1.editor.y=108
+>>>>>>> e3de8e7b2b61cb4f592de6f96238c515d9dc0445
 target1.height=50
 target1.name=d
 target1.naviview.expanded=true
@@ -34,8 +59,13 @@ target1.x=70
 target1.y=70
 target2.editor.height=700
 target2.editor.width=900
+<<<<<<< HEAD
 target2.editor.x=807
 target2.editor.y=62
+=======
+target2.editor.x=1002
+target2.editor.y=179
+>>>>>>> e3de8e7b2b61cb4f592de6f96238c515d9dc0445
 target2.height=50
 target2.name=A
 target2.naviview.expanded=true
