@@ -14,7 +14,10 @@ public class A extends Actor
      */
     public void act() 
     {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7b5d5b606e51466cb068d2daa8aab772d6c25a15
        if( Greenfoot.isKeyDown( "left" ) ){
         setRotation(180);
         move(1);
@@ -26,9 +29,23 @@ public class A extends Actor
     }
 
         // Add your action code here.
+<<<<<<< HEAD
         if( Greenfoot.isKeyDown( "down" ) ){
         setRotation(90);
         move(5);
          }
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        if( Greenfoot.isKeyDown( "up" ) ){
+            setRotation(270);
+            move(1);
+}
+=======
+>>>>>>> f318c74249d5b88ac7a380157a4197c35112f419
+>>>>>>> 7e5440d0118493387b385b6b0af2fc32f2b7281a
+>>>>>>> 9eef2567bcf4cf3481b3af3f655f1f3b0b3f28f7
+>>>>>>> 7b5d5b606e51466cb068d2daa8aab772d6c25a15
     }    
 }
