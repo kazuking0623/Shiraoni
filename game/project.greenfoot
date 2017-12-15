@@ -8,6 +8,7 @@ dependency1.to=oni
 dependency1.type=UsesDependency
 mainWindow.height=546
 mainWindow.width=856
+<<<<<<< HEAD
 mainWindow.x=1001
 mainWindow.y=403
 package.numDependencies=1
@@ -19,6 +20,24 @@ target1.editor.x=1008
 target1.editor.y=416
 target1.height=50
 target1.name=oni
+=======
+<<<<<<< HEAD
+mainWindow.x=157
+mainWindow.y=317
+=======
+mainWindow.x=897
+mainWindow.y=259
+>>>>>>> 49e4a2ba957bc0fe4dae41554f316fe6b3b59e95
+package.numDependencies=0
+package.numTargets=1
+project.charset=UTF-8
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=91
+target1.editor.y=210
+target1.height=50
+target1.name=MyWorld
+>>>>>>> b409fdb15354dd1e996bead9527680e85d54faeb
 target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget
