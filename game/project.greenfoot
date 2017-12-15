@@ -1,4 +1,7 @@
 #Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=b409fdb15354dd1e996bead9527680e85d54faeb
 class.MyWorld.image=board.jpg
 class.MyWorld.superclass=greenfoot.World
 class.oni.image=oni.jpg
@@ -8,47 +11,28 @@ dependency1.to=oni
 dependency1.type=UsesDependency
 mainWindow.height=546
 mainWindow.width=856
-<<<<<<< HEAD
-mainWindow.x=1001
-mainWindow.y=403
-package.numDependencies=1
-package.numTargets=2
-project.charset=UTF-8
-target1.editor.height=700
-target1.editor.width=900
-target1.editor.x=1008
-target1.editor.y=416
-target1.height=50
-target1.name=oni
-=======
-<<<<<<< HEAD
-mainWindow.x=157
-mainWindow.y=317
-=======
 mainWindow.x=897
-mainWindow.y=259
->>>>>>> 49e4a2ba957bc0fe4dae41554f316fe6b3b59e95
+mainWindow.y=287
 package.numDependencies=0
-package.numTargets=1
+package.numTargets=2
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=91
 target1.editor.y=210
 target1.height=50
-target1.name=MyWorld
->>>>>>> b409fdb15354dd1e996bead9527680e85d54faeb
+target1.name=oni
 target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
 target1.width=80
-target1.x=160
+target1.x=70
 target1.y=10
 target2.editor.height=700
 target2.editor.width=900
-target2.editor.x=105
-target2.editor.y=52
+target2.editor.x=91
+target2.editor.y=210
 target2.height=50
 target2.name=MyWorld
 target2.naviview.expanded=true
@@ -56,7 +40,7 @@ target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
 target2.width=80
-target2.x=70
+target2.x=160
 target2.y=10
 version=2.7.1
 world.lastInstantiated=MyWorld
