@@ -1,7 +1,11 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
 >>>>>>>=9eef2567bcf4cf3481b3af3f655f1f3b0b3f28f7
+=======
+>>>>>>>=0b0f39a8c15a88d494842a88792d6deee8e4f318
+>>>>>>> 49e4a2ba957bc0fe4dae41554f316fe6b3b59e95
 class.A.image=snowman.png
 class.A.superclass=greenfoot.Actor
 class.B.image=fish3.png
@@ -75,7 +79,11 @@ target4.y=10
 target5.editor.height=700
 target5.editor.width=900
 target5.editor.x=105
+<<<<<<< HEAD
 target5.editor.y=44
+=======
+target5.editor.y=72
+>>>>>>> 49e4a2ba957bc0fe4dae41554f316fe6b3b59e95
 target5.height=50
 target5.name=MyWorld
 target5.naviview.expanded=true
