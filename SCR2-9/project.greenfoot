@@ -14,8 +14,13 @@ class.shiraoni.image=\u767D\u9B3C.jpg
 class.shiraoni.superclass=greenfoot.Actor
 mainWindow.height=566
 mainWindow.width=714
+<<<<<<< HEAD
 mainWindow.x=641
 mainWindow.y=381
+=======
+mainWindow.x=547
+mainWindow.y=421
+>>>>>>> 0111226f745f27e5bc5c45c09d9913fec7d281c9
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
@@ -35,8 +40,13 @@ target1.x=70
 target1.y=70
 target2.editor.height=700
 target2.editor.width=900
+<<<<<<< HEAD
 target2.editor.x=777
 target2.editor.y=240
+=======
+target2.editor.x=1002
+target2.editor.y=179
+>>>>>>> 0111226f745f27e5bc5c45c09d9913fec7d281c9
 target2.height=50
 target2.name=A
 target2.naviview.expanded=true
