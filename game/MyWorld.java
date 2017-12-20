@@ -32,7 +32,6 @@ public class MyWorld extends World
     addObject( new bulleta(), 300, 200 );
     addObject( new bullets(), 300, 200 );
     addObject( new bulletd(), 300, 200 );
-        
         addObject( new tank(), 300,200 );
         for(int i=0;i<3;i++){
         int Xmin = 0;
@@ -44,6 +43,9 @@ public class MyWorld extends World
         int Y = Ymin + (int)(Math.random()*((Ymax-Ymin)+1));
         
         addObject( new oni(), X,Y );
+
+        rtime = 1000;
+
         rtime = 1000;
     }
 }
