@@ -27,10 +27,6 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-<<<<<<< HEAD
-=======
-        
->>>>>>> 0f8d74fe3da392db45e79308c38bfd00c651d28e
         
         addObject( new tank(), 300,200 );
         
@@ -44,10 +40,6 @@ public class MyWorld extends World
         int Y = Ymin + (int)(Math.random()*((Ymax-Ymin)+1));
         
         addObject( new oni(), X,Y );
-<<<<<<< HEAD
-=======
-        rtime = 1000;
->>>>>>> 0f8d74fe3da392db45e79308c38bfd00c651d28e
     }
 }
 }

@@ -1,16 +1,9 @@
 #Greenfoot properties
-<<<<<<< HEAD
-#Wed Dec 20 09:47:01 JST 2017
+#Wed Dec 20 10:09:54 JST 2017
 class.tank.superclass=greenfoot.Actor
 class.oni.image=oni.jpg
 target2.name=MyWorld
 target2.naviview.expanded=true
-=======
-#Wed Dec 20 09:19:15 JST 2017
-class.oni.image=oni.jpg
-target2.naviview.expanded=true
-target2.name=MyWorld
->>>>>>> 0f8d74fe3da392db45e79308c38bfd00c651d28e
 <<<<<<<=HEAD
 target2.editor.height=700
 dependency1.from=MyWorld
@@ -19,13 +12,8 @@ target1.editor.width=900
 target1.type=ClassTarget
 class.MyWorld.superclass=greenfoot.World
 target2.y=10
-<<<<<<< HEAD
 package.numTargets=2
 target2.x=160
-=======
-target2.x=160
-package.numTargets=2
->>>>>>> 0f8d74fe3da392db45e79308c38bfd00c651d28e
 target1.height=50
 target1.y=10
 target2.height=50
@@ -33,14 +21,10 @@ target1.x=70
 target1.naviview.expanded=true
 dependency1.to=oni
 target1.editor.height=700
-<<<<<<< HEAD
->>>>>>>=b409fdb15354dd1e996bead9527680e85d54faeb
-=======
->>>>>>>=68dbdeda0e65264abcfb5766c226f59c1980f8c1
->>>>>>> 0f8d74fe3da392db45e79308c38bfd00c651d28e
+>>>>>>>=0f8d74fe3da392db45e79308c38bfd00c651d28e
 target1.showInterface=false
 target1.name=oni
-class.MyWorld.image=board.jpg
+class.MyWorld.image=haikei.jpg
 target2.typeParameters=
 class.oni.superclass=greenfoot.Actor
 mainWindow.width=856
@@ -48,29 +32,17 @@ target1.typeParameters=
 target1.editor.y=210
 target1.editor.x=91
 target2.width=80
-<<<<<<< HEAD
-mainWindow.y=371
-target1.width=80
-mainWindow.height=546
-class.tank.image=tank5.png
-=======
 mainWindow.y=315
 target1.width=80
 mainWindow.height=546
->>>>>>> 0f8d74fe3da392db45e79308c38bfd00c651d28e
+class.tank.image=tank5.png
 mainWindow.x=897
 target2.type=ClassTarget
 world.lastInstantiated=MyWorld
 dependency1.type=UsesDependency
-<<<<<<< HEAD
-target2.editor.y=182
-target2.editor.x=91
-version=2.7.1
-=======
 target2.editor.y=210
-version=2.7.1
 target2.editor.x=91
->>>>>>> 0f8d74fe3da392db45e79308c38bfd00c651d28e
+version=2.7.1
 package.numDependencies=1
 project.charset=UTF-8
 target2.editor.width=900
