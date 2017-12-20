@@ -13,6 +13,7 @@ public class MyWorld extends World
      * Constructor for objects of class MyWorld.
      * 
      */
+    
     private int rtime;
     public void act()
     {
@@ -27,9 +28,16 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+<<<<<<< HEAD
 
-        addObject( new tank(), 300,200 );
+=======
+    addObject( new bulletw(), 300, 200 );
+    addObject( new bulleta(), 300, 200 );
+    addObject( new bullets(), 300, 200 );
+    addObject( new bulletd(), 300, 200 );
         
+>>>>>>> 504ab9d1abdace0264ade0df0025a882ce4581d1
+        addObject( new tank(), 300,200 );
         for(int i=0;i<3;i++){
         int Xmin = 0;
         int Xmax = 600;
@@ -40,9 +48,13 @@ public class MyWorld extends World
         int Y = Ymin + (int)(Math.random()*((Ymax-Ymin)+1));
         
         addObject( new oni(), X,Y );
+<<<<<<< HEAD
 
         rtime = 1000;
 
+=======
+        rtime = 1000;
+>>>>>>> 504ab9d1abdace0264ade0df0025a882ce4581d1
     }
 }
 }
