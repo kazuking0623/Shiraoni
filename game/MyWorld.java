@@ -45,6 +45,7 @@ public class MyWorld extends World
         addObject( new oni(), X,Y );
 
         rtime = 1000;
+        rtime = 1000;
 
         rtime = 1000;
     }
