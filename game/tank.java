@@ -15,20 +15,20 @@ public class tank extends Actor
     public void act() 
     {
         if( Greenfoot.isKeyDown( "right" ) ){
-        setRotation(180);
-        move(3);
+        setRotation(0);
+        move(4);
     }
      if( Greenfoot.isKeyDown( "left" ) ){
-        setRotation(0);
-        move(3);
+        setRotation(180);
+        move(4);
     }
      if( Greenfoot.isKeyDown( "down" ) ){
-        setRotation(270);
-        move(3);
+        setRotation(90);
+        move(4);
     }
      if( Greenfoot.isKeyDown( "up" ) ){
-        setRotation(90);
-        move(3);
+        setRotation(270);
+        move(4);
     }
     }    
 }
