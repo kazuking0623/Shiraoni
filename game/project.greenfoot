@@ -1,8 +1,8 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=504ab9d1abdace0264ade0df0025a882ce4581d1
-class.MyWorld.image=board.jpg
+>>>>>>>=58922f4384beae42077d76f03368428e7a399a05
+class.MyWorld.image=haikei.jpg
 class.MyWorld.superclass=greenfoot.World
 class.bulleta.image=ant.png
 class.bulleta.superclass=greenfoot.Actor
@@ -36,9 +36,9 @@ dependency6.to=tank
 dependency6.type=UsesDependency
 mainWindow.height=546
 mainWindow.width=856
-mainWindow.x=275
-mainWindow.y=413
-package.numDependencies=6
+mainWindow.x=897
+mainWindow.y=343
+package.numDependencies=1
 package.numTargets=7
 project.charset=UTF-8
 target1.editor.height=700
