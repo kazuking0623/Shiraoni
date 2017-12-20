@@ -1,7 +1,24 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>>=0111226f745f27e5bc5c45c09d9913fec7d281c9
+=======
+<<<<<<< HEAD
+target3.height=50
+target5.height=50
+class.shiraoni.image=\u767D\u9B3C.jpg
+=======
+<<<<<<< HEAD
+>>>>>>>=9eef2567bcf4cf3481b3af3f655f1f3b0b3f28f7
+=======
+>>>>>>>=0b0f39a8c15a88d494842a88792d6deee8e4f318
+>>>>>>> 49e4a2ba957bc0fe4dae41554f316fe6b3b59e95
+>>>>>>> 68dbdeda0e65264abcfb5766c226f59c1980f8c1
+=======
 >>>>>>>=b409fdb15354dd1e996bead9527680e85d54faeb
+>>>>>>> fba93bba1bdabf9cd4fa863359004c029d3ed669
 class.A.image=snowman.png
 class.A.superclass=greenfoot.Actor
 class.B.image=fish3.png
@@ -30,12 +47,22 @@ target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fba93bba1bdabf9cd4fa863359004c029d3ed669
 target1.width=80
 target1.x=70
 target1.y=70
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=1002
+<<<<<<< HEAD
+=======
+target1.naviview.expanded=true
+>>>>>>> 68dbdeda0e65264abcfb5766c226f59c1980f8c1
+=======
+>>>>>>> fba93bba1bdabf9cd4fa863359004c029d3ed669
 target2.editor.y=207
 target2.height=50
 target2.name=A
