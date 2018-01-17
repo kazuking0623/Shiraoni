@@ -12,20 +12,19 @@ public class bulleta extends Actor
      * Act - do whatever the bulleta wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    int h=0;
+    int h=1;
     public void act() 
     {
         int i;
         
         if(h==0){
-        if( Greenfoot.isKeyDown( "a" ) ){
-            h=1;
-        for(i=0;i<1000;i++){
         setRotation(180);
-        move(5);
+        move(6);
     }
-}
-        
+        else{
+        if( Greenfoot.isKeyDown( "a" ) ){
+            h=0;
+        }
         
         if( Greenfoot.isKeyDown( "left" ) ){
             setRotation(180);
@@ -43,9 +42,11 @@ public class bulleta extends Actor
             setRotation(270);
             move(4);
         }
+        
+    }
     }
     
     
   
-    }    
-}
+}    
+
