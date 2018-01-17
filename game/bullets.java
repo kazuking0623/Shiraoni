@@ -12,19 +12,21 @@ public class bullets extends Actor
      * Act - do whatever the bullets wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    int h=0;
-    public void act() 
+    int h=1;
+     public void act() 
     {
         int i;
-        if(h==0){
-        if( Greenfoot.isKeyDown( "s" ) ){
-            h=1;
-        for(i=0;i<1000;i++){
-        setRotation(90);
-        move(5);
-    }
-}
         
+        if(h==0){
+        setRotation(90);
+        move(6);
+    }
+    
+    
+        else{
+        if( Greenfoot.isKeyDown( "s" ) ){
+            h=0;
+        }
         
         if( Greenfoot.isKeyDown( "left" ) ){
             setRotation(180);
@@ -42,6 +44,7 @@ public class bullets extends Actor
             setRotation(270);
             move(4);
         }
-    }    
-}
+        
+    }
+    }
 }
