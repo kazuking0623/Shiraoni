@@ -22,7 +22,7 @@ public class bulleta extends Actor
             h=1;
         for(i=0;i<1000;i++){
         setRotation(180);
-        move(5);
+        move(1);
     }
 }
         
