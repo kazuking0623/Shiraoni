@@ -31,10 +31,6 @@ public class MyWorld extends World
         
         addObject( new tank(), 540, 405 );
         
-        addObject( new tankf(), 570, 405 );
-        addObject( new tankf(), 510, 405 );
-        addObject( new tankf(), 540, 425 );
-        addObject( new tankf(), 540, 385 );
         for(int i=0;i<3;i++){
         int Xmin = 0;
         int Xmax = 600;
