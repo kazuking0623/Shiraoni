@@ -21,6 +21,8 @@ public class bulleta extends Actor
         setRotation(180);
         move(6);
     }
+    
+    
         else{
         if( Greenfoot.isKeyDown( "a" ) ){
             h=0;
