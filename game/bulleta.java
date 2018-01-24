@@ -15,38 +15,14 @@ public class bulleta extends Actor
     int h=1;
     public void act() 
     {
-        int i;
         
-        if(h==0){
         setRotation(180);
         move(6);
-    }
     
     
-        else{
-        if( Greenfoot.isKeyDown( "a" ) ){
-            h=0;
-        }
-        
-        if( Greenfoot.isKeyDown( "left" ) ){
-            setRotation(180);
-            move(4);
-        }
-        if( Greenfoot.isKeyDown( "right" ) ){
-            setRotation(0);
-            move(4);
-        }
-        if( Greenfoot.isKeyDown( "down" ) ){
-            setRotation(90);
-            move(4);
-        }
-        if( Greenfoot.isKeyDown( "up" ) ){
-            setRotation(270);
-            move(4);
-        }
-        
+    
     }
-    }
+    
     
     
   
