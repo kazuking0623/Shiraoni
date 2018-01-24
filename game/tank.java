@@ -17,7 +17,6 @@ public class tank extends Actor
     {
 
     hit ();
-
         if( Greenfoot.isKeyDown( "right" ) ){
         setRotation(0);
         move(4);

@@ -28,6 +28,7 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1080, 810, 1); 
+
     addObject( new bulletw(), 540, 405 );
     addObject( new bulleta(), 540, 405 );
     addObject( new bullets(), 540, 405 );
