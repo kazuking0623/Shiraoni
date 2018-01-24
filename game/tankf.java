@@ -1,15 +1,15 @@
 import greenfoot.*;
 
 /**
- * Write a description of class tank here.
+ * Write a description of class tankf here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class tank extends Actor
+public class tankf extends Actor
 {
     /**
-     * Act - do whatever the tank wants to do. This method is called whenever
+     * Act - do whatever the tankf wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     private int oni;
@@ -17,10 +17,10 @@ public class tank extends Actor
     {
 
     hit ();
+
         if( Greenfoot.isKeyDown( "right" ) ){
         setRotation(0);
         move(4);
-        
     }
      if( Greenfoot.isKeyDown( "left" ) ){
         setRotation(180);
@@ -35,22 +35,7 @@ public class tank extends Actor
         move(4);
     }
     
-    if( Greenfoot.isKeyDown( "s" ) ){
-        getWorld().addObject( new bullets(), 570, 405 );
-        
-    }
-    if( Greenfoot.isKeyDown( "a" ) ){
-        getWorld().addObject( new bulleta(), 570, 405 );
-        
-    }
-    if( Greenfoot.isKeyDown( "w" ) ){
-        getWorld().addObject( new bulletw(), 570, 405 );
-        
-    }
-    if( Greenfoot.isKeyDown( "d" ) ){
-        getWorld().addObject( new bulletd(), 570, 405 );
-        
-    }
+        // Add your action code here.
     } 
         public void hit()
     {
@@ -65,7 +50,5 @@ public class tank extends Actor
                 }
             // TARO とぶつかった時の処理を書く
         }  
-    }
-    
-
-    }    
+    }   
+}

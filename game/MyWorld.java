@@ -27,15 +27,13 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1080, 810, 1); 
-
-    addObject( new bulletw(), 540, 405 );
-    addObject( new bulleta(), 540, 405 );
-    addObject( new bullets(), 540, 405 );
-    addObject( new bulletd(), 540, 405 );
-        
+        super(1080, 810, 1);    
         addObject( new tank(), 540, 405 );
-
+        
+        addObject( new tankf(), 570, 405 );
+        addObject( new tankf(), 510, 405 );
+        addObject( new tankf(), 540, 425 );
+        addObject( new tankf(), 540, 385 );
         for(int i=0;i<3;i++){
         int Xmin = 0;
         int Xmax = 600;
