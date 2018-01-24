@@ -20,8 +20,8 @@ public class oni extends Actor
         hits();
         hitw();
         hitd();
-            getWorld().showText( "count = " + count, 500, 50 );
-            getWorld().showText( "a = " + a, 700, 50 );
+           // getWorld().showText( "count = " + count, 500, 50 );
+           // getWorld().showText( "a = " + a, 700, 50 );
         if(a==1){
             count--;
             if(count == 0){
@@ -29,7 +29,7 @@ public class oni extends Actor
             }
         }
         else{
-        /*for(int i=0;i<5;i++){
+        for(int i=0;i<5;i++){
         int Xmin = 0;
         int Xmax = 10;
         int X = Xmin + (int)(Math.random()*((Xmax-Xmin)+1));
@@ -40,7 +40,7 @@ public class oni extends Actor
         move(X);
         setRotation(Y);
         
-    }*/
+    }
        }
 
     }
