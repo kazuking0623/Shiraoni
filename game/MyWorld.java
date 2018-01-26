@@ -18,7 +18,7 @@ public class MyWorld extends World
     public void act()
     {
         rtime--;
-        showText( "rtime = " + rtime, 300, 50 );
+        showText( "残り時間  " + rtime, 300, 50 );
         if( rtime == 0 ){
                    showText( "ゲームオーバー", 100, 50 );
                    Greenfoot.stop();
@@ -30,10 +30,6 @@ public class MyWorld extends World
         super(1080, 810, 1);    
         addObject( new tank(), 540, 405 );
         
-        addObject( new tankf(), 570, 405 );
-        addObject( new tankf(), 510, 405 );
-        addObject( new tankf(), 540, 425 );
-        addObject( new tankf(), 540, 385 );
         for(int i=0;i<3;i++){
         int Xmin = 0;
         int Xmax = 600;

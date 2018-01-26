@@ -13,10 +13,17 @@ public class tank extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     private int oni;
+    private int fa=0;
+    private int fs=0;
+    private int fw=0;
+    private int fd=0;
     public void act() 
     {
 
     hit ();
+    int x = getX();
+    int y = getY();
+
         if( Greenfoot.isKeyDown( "right" ) ){
         setRotation(0);
         move(4);
@@ -35,21 +42,31 @@ public class tank extends Actor
         move(4);
     }
     
+    if(fs == 0){
     if( Greenfoot.isKeyDown( "s" ) ){
-        getWorld().addObject( new bullets(), 570, 405 );
-        
+        getWorld().addObject( new bullets(), x, y );
+        fs=1;
     }
+    }
+    if(fa == 0){
     if( Greenfoot.isKeyDown( "a" ) ){
-        getWorld().addObject( new bulleta(), 570, 405 );
-        
+        getWorld().addObject( new bulleta(), x, y );
+        fa=1;
     }
+    }
+
+    if(fw == 0){
     if( Greenfoot.isKeyDown( "w" ) ){
-        getWorld().addObject( new bulletw(), 570, 405 );
-        
+        getWorld().addObject( new bulletw(), x, y );
+        fw=1;
     }
+    }
+
+    if(fd == 0){
     if( Greenfoot.isKeyDown( "d" ) ){
-        getWorld().addObject( new bulletd(), 570, 405 );
-        
+        getWorld().addObject( new bulletd(), x, y );
+        fd=1;
+    }
     }
     } 
         public void hit()

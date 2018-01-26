@@ -17,32 +17,8 @@ public class bulletd extends Actor
     {
         int i;
         
-        if(h==0){
         setRotation(0);
         move(6);
-    }
-        else{
-        if( Greenfoot.isKeyDown( "d" ) ){
-            h=0;
-        }
-        
-        if( Greenfoot.isKeyDown( "left" ) ){
-            setRotation(180);
-            move(4);
-        }
-        if( Greenfoot.isKeyDown( "right" ) ){
-            setRotation(0);
-            move(4);
-        }
-        if( Greenfoot.isKeyDown( "down" ) ){
-            setRotation(90);
-            move(4);
-        }
-        if( Greenfoot.isKeyDown( "up" ) ){
-            setRotation(270);
-            move(4);
-        }
-        
-    }
+    
     }
 }
