@@ -69,10 +69,17 @@ dependency8.type=UsesDependency
 dependency9.from=tank
 dependency9.to=bulletw
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 mainWindow.height=1028
 mainWindow.width=1341
 mainWindow.x=457
 mainWindow.y=52
+=======
+mainWindow.height=1084
+mainWindow.width=1855
+mainWindow.x=65
+mainWindow.y=-4
+>>>>>>> d28ab5d7e346d54bfd5526f9633b25f294b96330
 package.numDependencies=15
 package.numTargets=8
 project.charset=UTF-8
@@ -143,8 +150,8 @@ target5.x=10
 target5.y=130
 target6.editor.height=700
 target6.editor.width=900
-target6.editor.x=105
-target6.editor.y=52
+target6.editor.x=792
+target6.editor.y=146
 target6.height=50
 target6.name=tank
 target6.naviview.expanded=true
