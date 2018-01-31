@@ -48,6 +48,11 @@ public class tank extends Actor
         move(4);
     }
     
+    
+    
+    
+    
+    /*
     if(fs == 0){
     if( Greenfoot.isKeyDown( "s" ) ){
         getWorld().addObject( new bullets(), x, y );
@@ -73,8 +78,8 @@ public class tank extends Actor
         getWorld().addObject( new bulletd(), x, y );
         fd=1;
     }
+    */
     
-    /*
      if( Greenfoot.isKeyDown( "s" ) ){
             
             if( flag_tamas == false ){
@@ -110,11 +115,15 @@ if( Greenfoot.isKeyDown( "d" ) ){
             }
         }  
         else flag_tamad = false;
-        */
         
         
         
-    } 
+       
+       
+       
+        
+    
+    
 }
 
         public void hit()
