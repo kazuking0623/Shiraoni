@@ -20,7 +20,8 @@ public class MyWorld extends World
         rtime--;
         showText( "rtime = " + rtime, 300, 50 );
         if( rtime == 0 ){
-                   showText( "ゲームオーバー", 100, 50 );
+                   World c = new gameover();
+                   Greenfoot.setWorld(c);
                    Greenfoot.stop();
         }  
     } 
@@ -31,7 +32,7 @@ public class MyWorld extends World
         
         addObject( new tank(), 540, 405 );
         
-        for(int i=0;i<3;i++){
+        for(int i=0;i<10;i++){
         int Xmin = 0;
         int Xmax = 600;
         int X = Xmin + (int)(Math.random()*((Xmax-Xmin)+1));

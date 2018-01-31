@@ -48,7 +48,7 @@ public class tank extends Actor
         move(4);
     }
     
-    if(fs == 0){
+    if(fs == 0){/*
     if( Greenfoot.isKeyDown( "s" ) ){
         getWorld().addObject( new bullets(), x, y );
         fs=1;
@@ -73,8 +73,8 @@ public class tank extends Actor
         getWorld().addObject( new bulletd(), x, y );
         fd=1;
     }
+    */
     
-    /*
      if( Greenfoot.isKeyDown( "s" ) ){
             
             if( flag_tamas == false ){
@@ -102,7 +102,7 @@ public class tank extends Actor
         }  
         else flag_tamaw = false;
 
-if( Greenfoot.isKeyDown( "d" ) ){
+    if( Greenfoot.isKeyDown( "d" ) ){
             
             if( flag_tamad == false ){
                 getWorld().addObject( new bulletd(), x, y );
@@ -110,21 +110,21 @@ if( Greenfoot.isKeyDown( "d" ) ){
             }
         }  
         else flag_tamad = false;
-        */
         
         
+    
         
     } 
 }
 
-        public void hit()
+    public void hit()
     {
         Actor actor = getOneObjectAtOffset( 0, 0, oni.class );
         if( actor != null ){
             getWorld().removeObject( actor ); // getWorld() は World オブジェクトの getter
             oni++;
             getWorld().showText( "捕まえた数"+oni, 100, 50 );
-            if(oni == 3){
+            if(oni == 10){
                    getWorld().showText( "Clear !", 100, 50 );
                    Greenfoot.stop();
                 }
