@@ -31,6 +31,10 @@ public class tank extends Actor
         int y = getY();
 
         if( Greenfoot.isKeyDown( "right" ) ){
+
+            setRotation(0);
+            move(4);
+
             setRotation(0);
             move(4);
 
@@ -48,71 +52,102 @@ public class tank extends Actor
             move(4);
         }
 
+        
         if(fs == 0){/*
-            if( Greenfoot.isKeyDown( "s" ) ){
-            getWorld().addObject( new bullets(), x, y );
-            fs=1;
+        if( Greenfoot.isKeyDown( "s" ) ){
+        getWorld().addObject( new bullets(), x, y );
+        fs=1;
+        }
+        }
+        if(fa == 0){
+        if( Greenfoot.isKeyDown( "a" ) ){
+        getWorld().addObject( new bulleta(), x, y );
+        fa=1;
+        }
+        }
+
+        }
+        if( Greenfoot.isKeyDown( "left" ) ){
+        setRotation(180);
+        move(4);
+        }
+        if( Greenfoot.isKeyDown( "down" ) ){
+        setRotation(90);
+        move(4);
+        }
+        if( Greenfoot.isKeyDown( "up" ) ){
+        setRotation(270);
+        move(4);
+        }
+
+        if(fs == 0){/*
+        if( Greenfoot.isKeyDown( "s" ) ){
+        getWorld().addObject( new bullets(), x, y );
+        fs=1;
+        }
+        }
+        if(fa == 0){
+        if( Greenfoot.isKeyDown( "a" ) ){
+        getWorld().addObject( new bulleta(), x, y );
+        fa=1;
+        }
+        }
+
+        if(fw == 0){
+        if( Greenfoot.isKeyDown( "w" ) ){
+        getWorld().addObject( new bulletw(), x, y );
+        fw=1;
+        }
+        }
+
+        if(fd == 0){
+        if( Greenfoot.isKeyDown( "d" ) ){
+        getWorld().addObject( new bulletd(), x, y );
+        fd=1;
+        }
+
+         */
+
+        //else flag_tamad = false;
+
+       
+    
+        if( Greenfoot.isKeyDown( "s" ) ){
+            if( flag_tamas == false ){
+                getWorld().addObject( new bullets(), x, y );
+                flag_tamas = true;
             }
+        }  
+        else flag_tamas = false;
+
+        if( Greenfoot.isKeyDown( "a" ) ){
+
+            if( flag_tamaa == false ){
+                getWorld().addObject( new bulleta(), x, y );
+                flag_tamaa = true;
             }
-            if(fa == 0){
-            if( Greenfoot.isKeyDown( "a" ) ){
-            getWorld().addObject( new bulleta(), x, y );
-            fa=1;
+        }  
+        else flag_tamaa = false;
+
+        if( Greenfoot.isKeyDown( "w" ) ){
+
+            if( flag_tamaw == false ){
+                getWorld().addObject( new bulletw(), x, y );
+                flag_tamaw = true;
             }
+        }  
+        else flag_tamaw = false;
+
+        if( Greenfoot.isKeyDown( "d" ) ){
+
+            if( flag_tamad == false ){
+                getWorld().addObject( new bulletd(), x, y );
+                flag_tamad = true;
             }
-
-            if(fw == 0){
-            if( Greenfoot.isKeyDown( "w" ) ){
-            getWorld().addObject( new bulletw(), x, y );
-            fw=1;
-            }
-            }
-
-            if(fd == 0){
-            if( Greenfoot.isKeyDown( "d" ) ){
-            getWorld().addObject( new bulletd(), x, y );
-            fd=1;
-            }
-             */
-
-            if( Greenfoot.isKeyDown( "s" ) ){
-
-                if( flag_tamas == false ){
-                    getWorld().addObject( new bullets(), x, y );
-                    flag_tamas = true;
-                }
-            }  
-            else flag_tamas = false;
-
-            if( Greenfoot.isKeyDown( "a" ) ){
-
-                if( flag_tamaa == false ){
-                    getWorld().addObject( new bulleta(), x, y );
-                    flag_tamaa = true;
-                }
-            }  
-            else flag_tamaa = false;
-
-            if( Greenfoot.isKeyDown( "w" ) ){
-
-                if( flag_tamaw == false ){
-                    getWorld().addObject( new bulletw(), x, y );
-                    flag_tamaw = true;
-                }
-            }  
-            else flag_tamaw = false;
-
-            if( Greenfoot.isKeyDown( "d" ) ){
-
-                if( flag_tamad == false ){
-                    getWorld().addObject( new bulletd(), x, y );
-                    flag_tamad = true;
-                }
-            }  
-            else flag_tamad = false;
-
-        } 
+        }  
+        else flag_tamad = false;
     }
+    } 
 
     private void hit()
     {
