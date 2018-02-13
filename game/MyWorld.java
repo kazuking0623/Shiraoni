@@ -20,17 +20,18 @@ public class MyWorld extends World
         rtime--;
         showText( "残り時間  " + rtime, 300, 50 );
         if( rtime == 0 ){
-                   showText( "ゲームオーバー", 100, 50 );
+                   World c = new gameover();
+                   Greenfoot.setWorld(c);
                    Greenfoot.stop();
         }  
-    }
+    } 
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1080, 810, 1);    
         addObject( new tank(), 540, 405 );
         
-        for(int i=0;i<3;i++){
+        for(int i=0;i<10;i++){
         int Xmin = 0;
         int Xmax = 600;
         int X = Xmin + (int)(Math.random()*((Xmax-Xmin)+1));

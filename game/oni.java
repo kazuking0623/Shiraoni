@@ -42,8 +42,15 @@ public class oni extends Actor
         
     }
        }
-
+          /*
+       if( actor != null ){
+             World c = new gameover();
+                   Greenfoot.setWorld(c);
+                   Greenfoot.stop();
+        }  
+           */    
     }
+    
     public void hita()
     {
         Actor actor = getOneObjectAtOffset( 0, 0, bulleta.class );
